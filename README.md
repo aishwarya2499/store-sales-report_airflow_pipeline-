@@ -3,16 +3,22 @@ The DAG orchestrates extraction from source systems, applies transformations and
 
 🔹 Arhitecture:
 
-  •	Reading the input csv file and transforming the raw data into cleaned data 
+  •	Reading the input csv file and transforming the raw data into cleaned data
+  
   •	Saving the cleaned data into MySQL table
+  
   •	Generating location wise and Store wise profit and saving the results as csv 
+  
   •	Scheduling SMTP enabling to send reports as a mail when the DAG is run (either manually or scheduled)
 
 🔹 Features:
 
  	•	Daily scheduled DAG for store sales data processing
+  
 	•	Built with BashOperators, PythonOperators for flexibility
+ 
 	•	Ensures dependency management and retries on failure
+ 
 	•	Designed for scalability and production-ready orchestration
  
 🔹 Use Case:
