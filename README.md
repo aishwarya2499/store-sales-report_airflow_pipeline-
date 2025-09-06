@@ -13,13 +13,13 @@ The DAG orchestrates extraction from source systems, applies transformations and
 
 🔹 Features:
 
- 	•	Daily schedules DAG for store sales data processing
+•	Daily schedules DAG for store sales data processing
   
-	•	Built with BashOperators, PythonOperators for flexibilty
+•	Built with BashOperators, PythonOperators for flexibilty
  
-	•	Ensures dependency management and retries on failure
+•	Ensures dependency management and retries on failure
  
-	•	Designed for scalability and production-ready orchestration
+•	Designed for scalability and production-ready orchestration
  
 🔹 Use Case:
 
